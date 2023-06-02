@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D1CF3B82A1B704C009FFFCA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1CF3B72A1B704C009FFFCA /* GameScene.swift */; };
+		8D54BD492A1600590022A458 /* TriadChordGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D54BD482A1600590022A458 /* TriadChordGameApp.swift */; };
+		8D54BD4B2A1600590022A458 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D54BD4A2A1600590022A458 /* ContentView.swift */; };
+		8D54BD4D2A16005A0022A458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D54BD4C2A16005A0022A458 /* Assets.xcassets */; };
+		8D54BD502A16005A0022A458 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D54BD4F2A16005A0022A458 /* Preview Assets.xcassets */; };
+		8D54BD592A1604830022A458 /* MyTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8D54BD582A1604830022A458 /* MyTileSet.sks */; };
+		8D54BD5B2A1608D30022A458 /* Level_1_Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8D54BD5A2A1608D30022A458 /* Level_1_Scene.sks */; };
+		8DE43BE22A1F1B8C00C0C284 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DE43BE12A1F1B8C00C0C284 /* Minecraft.ttf */; };
+		8DE43BE62A1F6E2700C0C284 /* C_1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8DE43BE52A1F6E2700C0C284 /* C_1.m4a */; };
+		8DE43BE82A1F6F5F00C0C284 /* C#_1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8DE43BE72A1F6F5F00C0C284 /* C#_1.m4a */; };
+		8DE43BF32A1F70AF00C0C284 /* F_1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8DE43BE92A1F70AF00C0C284 /* F_1.m4a */; };
+		8DE43BF42A1F70AF00C0C284 /* D_1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8DE43BEA2A1F70AF00C0C284 /* D_1.m4a */; };
+		8DE43BF52A1F70AF00C0C284 /* D#_1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8DE43BEB2A1F70AF00C0C284 /* D#_1.m4a */; };
+		8DE43BF62A1F70AF00C0C284 /* B_1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8DE43BEC2A1F70AF00C0C284 /* B_1.m4a */; };
+		8DE43BF72A1F70AF00C0C284 /* G_1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8DE43BED2A1F70AF00C0C284 /* G_1.m4a */; };
+		8DE43BF82A1F70AF00C0C284 /* A#_1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8DE43BEE2A1F70AF00C0C284 /* A#_1.m4a */; };
+		8DE43BF92A1F70AF00C0C284 /* E_1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8DE43BEF2A1F70AF00C0C284 /* E_1.m4a */; };
+		8DE43BFA2A1F70AF00C0C284 /* A_1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8DE43BF02A1F70AF00C0C284 /* A_1.m4a */; };
+		8DE43BFB2A1F70AF00C0C284 /* F#_1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8DE43BF12A1F70AF00C0C284 /* F#_1.m4a */; };
+		8DE43BFC2A1F70AF00C0C284 /* G#_1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8DE43BF22A1F70AF00C0C284 /* G#_1.m4a */; };
+		8DE43BFE2A1F820100C0C284 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE43BFD2A1F820100C0C284 /* StartScreen.swift */; };
+		8DE43C002A1FCF7C00C0C284 /* orchestra.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8DE43BFF2A1FCF7C00C0C284 /* orchestra.gif */; };
+		8DE43C042A1FFB0100C0C284 /* GameOverScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE43C032A1FFB0100C0C284 /* GameOverScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D1CF3B72A1B704C009FFFCA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		8D54BD452A1600590022A458 /* TriadChordGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriadChordGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D54BD482A1600590022A458 /* TriadChordGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriadChordGameApp.swift; sourceTree = "<group>"; };
+		8D54BD4A2A1600590022A458 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8D54BD4C2A16005A0022A458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D54BD4F2A16005A0022A458 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8D54BD582A1604830022A458 /* MyTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = MyTileSet.sks; path = ../MyTileSet.sks; sourceTree = "<group>"; };
+		8D54BD5A2A1608D30022A458 /* Level_1_Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level_1_Scene.sks; sourceTree = "<group>"; };
+		8DE43BE12A1F1B8C00C0C284 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Minecraft.ttf; path = ../../../../../../Downloads/Minecraft.ttf; sourceTree = "<group>"; };
+		8DE43BE32A1F1BBD00C0C284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8DE43BE52A1F6E2700C0C284 /* C_1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = C_1.m4a; path = "../../../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/C_1.m4a"; sourceTree = "<group>"; };
+		8DE43BE72A1F6F5F00C0C284 /* C#_1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "C#_1.m4a"; path = "../../../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/C#_1.m4a"; sourceTree = "<group>"; };
+		8DE43BE92A1F70AF00C0C284 /* F_1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = F_1.m4a; path = "../../../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/F_1.m4a"; sourceTree = "<group>"; };
+		8DE43BEA2A1F70AF00C0C284 /* D_1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = D_1.m4a; path = "../../../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/D_1.m4a"; sourceTree = "<group>"; };
+		8DE43BEB2A1F70AF00C0C284 /* D#_1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "D#_1.m4a"; path = "../../../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/D#_1.m4a"; sourceTree = "<group>"; };
+		8DE43BEC2A1F70AF00C0C284 /* B_1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = B_1.m4a; path = "../../../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/B_1.m4a"; sourceTree = "<group>"; };
+		8DE43BED2A1F70AF00C0C284 /* G_1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = G_1.m4a; path = "../../../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/G_1.m4a"; sourceTree = "<group>"; };
+		8DE43BEE2A1F70AF00C0C284 /* A#_1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "A#_1.m4a"; path = "../../../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/A#_1.m4a"; sourceTree = "<group>"; };
+		8DE43BEF2A1F70AF00C0C284 /* E_1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = E_1.m4a; path = "../../../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/E_1.m4a"; sourceTree = "<group>"; };
+		8DE43BF02A1F70AF00C0C284 /* A_1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = A_1.m4a; path = "../../../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/A_1.m4a"; sourceTree = "<group>"; };
+		8DE43BF12A1F70AF00C0C284 /* F#_1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "F#_1.m4a"; path = "../../../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/F#_1.m4a"; sourceTree = "<group>"; };
+		8DE43BF22A1F70AF00C0C284 /* G#_1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "G#_1.m4a"; path = "../../../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/G#_1.m4a"; sourceTree = "<group>"; };
+		8DE43BFD2A1F820100C0C284 /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
+		8DE43BFF2A1FCF7C00C0C284 /* orchestra.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = orchestra.gif; sourceTree = "<group>"; };
+		8DE43C032A1FFB0100C0C284 /* GameOverScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D54BD422A1600590022A458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D54BD3C2A1600590022A458 = {
+			isa = PBXGroup;
+			children = (
+				8D54BD472A1600590022A458 /* TriadChordGame */,
+				8D54BD462A1600590022A458 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D54BD462A1600590022A458 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D54BD452A1600590022A458 /* TriadChordGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D54BD472A1600590022A458 /* TriadChordGame */ = {
+			isa = PBXGroup;
+			children = (
+				8DE43BE32A1F1BBD00C0C284 /* Info.plist */,
+				8D54BD482A1600590022A458 /* TriadChordGameApp.swift */,
+				8D1CF3B72A1B704C009FFFCA /* GameScene.swift */,
+				8D54BD4A2A1600590022A458 /* ContentView.swift */,
+				8DE43BFD2A1F820100C0C284 /* StartScreen.swift */,
+				8DE43C032A1FFB0100C0C284 /* GameOverScreen.swift */,
+				8D54BD5A2A1608D30022A458 /* Level_1_Scene.sks */,
+				8D54BD582A1604830022A458 /* MyTileSet.sks */,
+				8D54BD4C2A16005A0022A458 /* Assets.xcassets */,
+				8DE43BFF2A1FCF7C00C0C284 /* orchestra.gif */,
+				8DE43BE42A1F6E0D00C0C284 /* Sounds */,
+				8DE43BE02A1F1B6800C0C284 /* Fonts */,
+				8D54BD4E2A16005A0022A458 /* Preview Content */,
+			);
+			path = TriadChordGame;
+			sourceTree = "<group>";
+		};
+		8D54BD4E2A16005A0022A458 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8D54BD4F2A16005A0022A458 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DE43BE02A1F1B6800C0C284 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8DE43BE12A1F1B8C00C0C284 /* Minecraft.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8DE43BE42A1F6E0D00C0C284 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8DE43BE52A1F6E2700C0C284 /* C_1.m4a */,
+				8DE43BE72A1F6F5F00C0C284 /* C#_1.m4a */,
+				8DE43BF02A1F70AF00C0C284 /* A_1.m4a */,
+				8DE43BEE2A1F70AF00C0C284 /* A#_1.m4a */,
+				8DE43BEC2A1F70AF00C0C284 /* B_1.m4a */,
+				8DE43BEA2A1F70AF00C0C284 /* D_1.m4a */,
+				8DE43BEB2A1F70AF00C0C284 /* D#_1.m4a */,
+				8DE43BEF2A1F70AF00C0C284 /* E_1.m4a */,
+				8DE43BE92A1F70AF00C0C284 /* F_1.m4a */,
+				8DE43BF12A1F70AF00C0C284 /* F#_1.m4a */,
+				8DE43BED2A1F70AF00C0C284 /* G_1.m4a */,
+				8DE43BF22A1F70AF00C0C284 /* G#_1.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D54BD442A1600590022A458 /* TriadChordGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D54BD532A16005A0022A458 /* Build configuration list for PBXNativeTarget "TriadChordGame" */;
+			buildPhases = (
+				8D54BD412A1600590022A458 /* Sources */,
+				8D54BD422A1600590022A458 /* Frameworks */,
+				8D54BD432A1600590022A458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriadChordGame;
+			productName = TriadChordGame;
+			productReference = 8D54BD452A1600590022A458 /* TriadChordGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D54BD3D2A1600590022A458 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8D54BD442A1600590022A458 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 8D54BD402A1600590022A458 /* Build configuration list for PBXProject "TriadChordGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D54BD3C2A1600590022A458;
+			productRefGroup = 8D54BD462A1600590022A458 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D54BD442A1600590022A458 /* TriadChordGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D54BD432A1600590022A458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE43BE62A1F6E2700C0C284 /* C_1.m4a in Resources */,
+				8DE43BFB2A1F70AF00C0C284 /* F#_1.m4a in Resources */,
+				8DE43BFC2A1F70AF00C0C284 /* G#_1.m4a in Resources */,
+				8D54BD592A1604830022A458 /* MyTileSet.sks in Resources */,
+				8DE43BE82A1F6F5F00C0C284 /* C#_1.m4a in Resources */,
+				8DE43BF42A1F70AF00C0C284 /* D_1.m4a in Resources */,
+				8D54BD5B2A1608D30022A458 /* Level_1_Scene.sks in Resources */,
+				8DE43BF62A1F70AF00C0C284 /* B_1.m4a in Resources */,
+				8DE43C002A1FCF7C00C0C284 /* orchestra.gif in Resources */,
+				8DE43BFA2A1F70AF00C0C284 /* A_1.m4a in Resources */,
+				8DE43BF92A1F70AF00C0C284 /* E_1.m4a in Resources */,
+				8DE43BF72A1F70AF00C0C284 /* G_1.m4a in Resources */,
+				8DE43BF82A1F70AF00C0C284 /* A#_1.m4a in Resources */,
+				8DE43BE22A1F1B8C00C0C284 /* Minecraft.ttf in Resources */,
+				8DE43BF32A1F70AF00C0C284 /* F_1.m4a in Resources */,
+				8D54BD502A16005A0022A458 /* Preview Assets.xcassets in Resources */,
+				8D54BD4D2A16005A0022A458 /* Assets.xcassets in Resources */,
+				8DE43BF52A1F70AF00C0C284 /* D#_1.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D54BD412A1600590022A458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1CF3B82A1B704C009FFFCA /* GameScene.swift in Sources */,
+				8D54BD4B2A1600590022A458 /* ContentView.swift in Sources */,
+				8DE43BFE2A1F820100C0C284 /* StartScreen.swift in Sources */,
+				8D54BD492A1600590022A458 /* TriadChordGameApp.swift in Sources */,
+				8DE43C042A1FFB0100C0C284 /* GameOverScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8D54BD512A16005A0022A458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D54BD522A16005A0022A458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D54BD542A16005A0022A458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TriadChordGame/Preview Content\"";
+				DEVELOPMENT_TEAM = X836989ZKB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TriadChordGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ada.TriadChordGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D54BD552A16005A0022A458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TriadChordGame/Preview Content\"";
+				DEVELOPMENT_TEAM = X836989ZKB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TriadChordGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ada.TriadChordGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D54BD402A1600590022A458 /* Build configuration list for PBXProject "TriadChordGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D54BD512A16005A0022A458 /* Debug */,
+				8D54BD522A16005A0022A458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D54BD532A16005A0022A458 /* Build configuration list for PBXNativeTarget "TriadChordGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D54BD542A16005A0022A458 /* Debug */,
+				8D54BD552A16005A0022A458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D54BD3D2A1600590022A458 /* Project object */;
+}
